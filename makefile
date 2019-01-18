@@ -1,7 +1,9 @@
-main.pdf: main.tex
-	pdflatex main.tex
-	rm main.log
+.PHONY: inl
+
+inl: inl.tex
+	pdflatex inl.tex
+	rm inl.log
 
 clean:
-	rm main.pdf
+	rm *.pdf
 
