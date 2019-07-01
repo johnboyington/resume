@@ -1,0 +1,132 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vskip-20pt%
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century 
+%schoolbook %postscript font uncomment this line and comment the one above
+
+\setlength{\textwidth}{5.1in} % Text width of the document
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft.5\hoffset\centerline{\Large\bf John Charles Boyington} % Your name at the top
+ 
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt} \vskip-10pt%
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 
+0.15pt}\smallskip 
+%Horizontal line after name; adjust line thickness by changing the '1pt'
+ 
+\moveleft.5\hoffset\centerline{826 Thurston St. \hfill (785) 533-4260} % Your address
+\moveleft.5\hoffset\centerline{Manhattan, KS 66502 \hfill mjcb@ksu.edu}
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+ 
+\section{OBJECTIVE}  
+
+% YO, REVISIT
+Gain competence in the use of production level data analytic codes by leveraging my academic background in scientific computing, artificial intelligence, and software development.
+
+%----------------------------------------------------------------------------------------
+\section{EDUCATION}
+
+{\sl Master of Science,} Nuclear Engineering \hfill Expected August 2019\\
+Kansas State University, Manhattan, KS \\
+Cumulative GPA: 3.625/4.000
+
+{\sl Bachelor of Science,} Mechanical Engineering \hfill December 2016 \\
+Japanese Language Minor \\
+Kansas State University, Manhattan, KS \\
+Cumulative GPA: 2.993/4.000
+
+
+%----------------------------------------------------------------------------------------
+\section{RELEVANT \\ EXPERIENCE}
+
+
+% INL
+{\sl Nuclear Plant Safety Systems Intern} \hfill Spring 2019 - Present \\
+Idaho National Laboratory, Idaho Falls, ID
+\begin{itemize}
+    \item Currently developing software for modernization of neutron spectrometric measurement analysis and calculation of dosimetric quantities using object-orientated design.
+\end{itemize}
+
+% GRA
+{\sl Graduate Research Assistant} \hfill Spring 2017 - Spring 2019 \\
+Mechanical and Nuclear Engineering, Kansas State University, Manhattan, KS
+\begin{itemize}
+    % ai class
+    \item Applied advanced data processing techniques and TensorFlow artificial neural networks for the creation of several game-playing and image-classifying agents, including agent implemented in PySC2 StarCraft II Learning Environment.
+    % wrote efor
+    \item Built and applied genetic-algorithm-based framework for the optimization of a neutron beam filter.
+    % visualizing filter
+    \item Crafted data visualization scheme for multi-dimensional neutron beam filter dataset that allowed trends to be observed and meaningful conclusions to be drawn.
+    % the hot fuel element
+    \item Applied 3D data-visualization to inform experimental team on potential radiological hazards of TRIGA fuel element removal and analysis experiment.
+    % technical writing
+    \item Drafted several technical documents detailing experiment and software design, implementation, and analysis, including drafts for United States Department of Energy.
+    % made model from scratch full triga model
+    \item Contributed to design and implementation of reactor simulation API and subsequent development of KSU Triga Mark II nuclear reactor model.
+    % this used object oriented framework
+    \item Scripted post-processing of multiple in-core and ex-core, neutron spectrometric measurement experiment analyses using carefully-designed, object-oriented framework.
+    % made several apis
+    \item Constructed Python-based wrappers for multiple codes used in neutron transport simulation, spectral deconvolution, and data visualization.
+\end{itemize}
+
+% GTA
+{\sl Graduate Teaching Assistant} \hfill Fall 2017 - Spring 2018 \\
+Mechanical and Nuclear Engineering, Kansas State University, Manhattan, KS \\
+\begin{itemize} \itemsep -2pt % Reduce space between items
+    \item Led laboratory and help sessions for undergraduate and graduate Python programming courses.
+    \item Developed course materials (quizzes, laboratories, homework and exams) for students.
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+\section{COMPUTER \\ SKILLS} 
+
+{\sl Languages:}
+Python, \LaTeX, Bash, C++, Fortran, Matlab, VBA
+
+{\sl Software:}
+TensorFlow, Visit, Git, MCNP6, ADVANTG, UMG3.3, SandIV, NJOY, Genie 2000, Microsoft Office Suite
+
+{\sl Operating Systems:}
+Linux Mint, Windows 10, Windows 7
+
+%----------------------------------------------------------------------------------------
+\section{PUBLISHED \\ WORKS}
+Conference Transactions
+\begin{itemize}
+\item John C. Boyington, Richard L. Reed, Ryan Ullrich, Jeremy A. Roberts. (2017, Nov). ``Gamma-Ray and Thermal-Neutron Filter Design for a TRIGA Penetrating Beam Port", 2017 Winter Meeting of American Nuclear Society, Washington D.C.
+\end{itemize}
+
+
+\end{resume}
+\end{document}
